@@ -1,14 +1,20 @@
 /**
- * @name DiscordNight Edit
- * @version 0.9.5.9
- * @description Dark vencord theme
- * @source https://github.com/maslt/disc-css/
- * @updateUrl https://raw.githubusercontent.com/maslt/disc-css/main/dark.css
- * @author Era
+ * @name DiscordNight
+ * @version 0.9.5.8
+ * @description Dark and compact theme for BetterDiscord
+ * @source https://github.com/KillYoy/DiscordNight/
+ * @updateUrl https://raw.githubusercontent.com/KillYoy/DiscordNight/master/DiscordNight.css
+ * @website 
+ * @donate https://www.paypal.me/KillYoy
+ * @patreon 
+ * @invite 
+ * @author KillYoy#0295
+ * @authorId 98468214824001536
+ * @authorLink 
 */
 
 :root {
-	--Settings-Theme-Version: "DiscordNight v0.9.5.9";
+	--Settings-Theme-Version: "DiscordNight v0.9.5.8";
 	
 	--Channel-Invite-Edit-Buttons: none;				/* flex = ON, none = OFF */
 	--Channel-Category-Invite-Button: flex;				/* flex = ON, none = OFF */
@@ -6732,9 +6738,9 @@ tooltipBrand_b6c360 .tooltipPointer_b6c360 {
 .profileCustomizationPreview_ab876d .overlayBackground_c69a7b .button_dfbe6b {
 	width: calc(var(--User-Popout-Width) - 20px);
 }
-.profileCustomizationPreview_ab876d .bannerNitroUpsell_ab876d .bannerNitroUpsellText_ab876d {
+/*.profileCustomizationPreview_ab876d .bannerNitroUpsell_ab876d .bannerNitroUpsellText_ab876d {
 	margin-left: 100px;
-}
+}*/
 .profileCustomizationPreview_ab876d .divider_ae36e5 {
 	display: none;
 }
