@@ -723,7 +723,7 @@
 	margin: 0px -5px 0px 0px;
 	padding: 0px;
 	border-radius: 8px 0px 0px 8px;
-	width: 30px;
+	width: 32px;
 }
 .sidebar_a4d4d9 .iconSpacing_cdc675.liveIconSpacing_cdc675 {
 	margin-left: 2px;
@@ -6769,7 +6769,7 @@ tooltipBrand_b6c360 .tooltipPointer_b6c360 {
 	display: none;
 }
 .profileCustomizationPreview_ab876d .wrapper_c51b4e.avatarUploaderInner_ab876d .avatarDecoration_c51b4e {
-	width: 122px;
+	width: 122px; /* originals: w 122px, h 122px, top: calc((.555 - var(--decoration-to-avatar-ratio)/2)*240%) !important; left: calc((.52 - var(--decoration-to-avatar-ratio)/2)*150%) !important;*/
 	height: 122px;
 	top: calc((.555 - var(--decoration-to-avatar-ratio)/2)*240%) !important;
 	left: calc((.52 - var(--decoration-to-avatar-ratio)/2)*150%) !important;
@@ -9562,20 +9562,22 @@ tooltipBrand_b6c360 .tooltipPointer_b6c360 {
 .userPopoutOuter_c69a7b .wrapper_c51b4e rect {
 	width: 20px;
 	height: 20px;
-	x: 74;
-	y: 74;
+	x: 58; /* 74 74 originally */
+	y: 58;
+	position: absolute;
 }
 .userPopoutOuter_c69a7b .wrapper_c51b4e rect[mask*="url(#svg-mask-status-online-mobile)"] {
-	width: 24px;
-	height: 36px;
-	x: 72;
-	y: 62;
+	width: 20px; /* originals 24w 36h x72 y62 */
+	height: 30px;
+	x: 58;
+	y: 50;
+	position: absolute;
 }
 
 /* Avatar Nitro Decoration */
 .userPopoutOuter_c69a7b .avatarDecoration_c51b4e {
-	width: 132px;
-	height: 132px;
+	width: 109px; /* original w132 h132 */
+	height: 109px;
 	top: calc((.5 - var(--decoration-to-avatar-ratio)/2)*180%);
 	left: calc((.5 - var(--decoration-to-avatar-ratio)/2)*110%);
 	/*
