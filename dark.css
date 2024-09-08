@@ -2309,7 +2309,7 @@
 /* Stream Game Button */
 .panels_a4d4d9 .panel_bf1a22 .actions_bf1a22 .panelButtonContainer_bf1a22 {
 	width: 24px;
-	margin-right: -4px;
+	margin-right: -24px; /* was 4 before sept 8 2024 change */
 }
 .panels_a4d4d9 .panel_bf1a22 .actions_bf1a22 .button_f67531 {
 	width: 18px;
